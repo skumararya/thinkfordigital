@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react()],
   // base: '/ACL/',
   build: {
-    outDir: 'build',
+    // outDir: 'build',
+    outDir: 'dist',
   },
   server: {
     port: 5550,
