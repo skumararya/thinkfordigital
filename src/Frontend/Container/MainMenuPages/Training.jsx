@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Helmet } from "react-helmet-async";
 import InnerBanner from '../../Shared/inner banner/InnerBanner'
 import { useNavigate } from "react-router-dom";
 
@@ -61,6 +62,33 @@ const Training = () => {
 
   return (
     <>
+
+    <Helmet>
+      <script type="application/ld+json">
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "IT Training Programs",
+  "provider": {
+    "@type": "Organization",
+    "name": "ThinkForDigital",
+    "url": "https://thinkfordigital.com"
+  }
+}
+`}
+</script>
+
+  <title>IT Training Courses | ThinkForDigital</title>
+
+  <meta
+  name="description"
+  content="Join ThinkForDigital IT training programs including Summer Training, Industrial Training, and Live Projects in Web Development, React, UI/UX, Node.js, and Laravel. Gain real-world experience and boost your career."
+/>
+
+  <link rel="canonical" href="https://thinkfordigital.com/training-courses" />
+</Helmet>
+
       <InnerBanner 
         pageTitle="Training"
         breadcrumb1="Home"

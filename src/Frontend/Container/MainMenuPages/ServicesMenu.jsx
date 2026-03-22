@@ -1,9 +1,22 @@
 import React from 'react'
 import InnerBanner from '../../Shared/inner banner/InnerBanner'
-
+import { Helmet } from "react-helmet-async";
 const ServicesMenu = () => {
   return (
     <>
+
+     <Helmet>
+        <title>Our Services | ThinkForDigital</title>
+
+        <meta
+          name="description"
+          content="Explore ThinkForDigital services including web design,summer training, web development, UI/UX, SEO, and digital marketing solutions for your business."
+        />
+
+        <link rel="canonical" href="https://thinkfordigital.com/services" />
+      </Helmet>
+
+
      <InnerBanner 
        pageTitle="Our Services"
   breadcrumb1="Home"

@@ -1,9 +1,21 @@
 import React from 'react'
 import InnerBanner from '../../Shared/inner banner/InnerBanner'
-
+import { Helmet } from "react-helmet-async";
 const Contactus = () => {
   return (
     <>
+
+    <Helmet>
+        <title>Contact Us | ThinkForDigital</title>
+
+        <meta
+          name="description"
+          content="Contact ThinkForDigital for web design, development, and digital marketing services. Call or email us for business inquiries."
+        />
+
+        <link rel="canonical" href="https://thinkfordigital.com/contact-us" />
+      </Helmet>
+
     <InnerBanner 
       pageTitle="Contact Us"
   breadcrumb1="Home"
@@ -47,7 +59,7 @@ const Contactus = () => {
                                 </div>
                                 <div class="ms-3">
                                     <h4 class="text-primary">Email Us</h4>
-                                    <a class="h5" href="pixelprotechnologies2024@gmail.com" target="_blank">pixelprotechnologies2024 @gmail.com
+                                    <a class="h5" href="mailto:pixelprotechnologies2024@gmail.com" target="_blank">pixelprotechnologies2024 @gmail.com
 </a>
                                 </div>
                             </div>
