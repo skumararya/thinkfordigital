@@ -43,7 +43,7 @@ const Footer = () => {
                         <div class="text-white mt-4 d-flex flex-column contact-link">
                             <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i>  73 Trinetra Enclave Greater Noida (U.P.)</a>
                             <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i> +91 701-199-6055</a>
-                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> pixelprotechnologies2024@gmail.com </a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> info.thinkfordigital@gmail.com </a>
                         </div>
                     </div>
                 </div>

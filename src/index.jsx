@@ -6,7 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 import "./index.css";
 import App from "./App.jsx";
 import reportWebVitals from "./reportWebVitals";
-import { HashRouter as Router } from "react-router-dom";
+// import { HashRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./redux/store/store";
 

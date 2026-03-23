@@ -40,7 +40,7 @@ const Address = () => {
                                 </div>
                                 <div class="ms-3">
                                     <h4 class="text-primary">Email Us</h4>
-                                    <a class="h5" href="pixelprotechnologies2024@gmail.com" target="_blank">pixelprotechnologies2024 @gmail.com
+                                    <a class="h5" href="info.thinkfordigital@gmail.com" target="_blank">info.thinkfordigital@gmail.com
 </a>
                                 </div>
                             </div>

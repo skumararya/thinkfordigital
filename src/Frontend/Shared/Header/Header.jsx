@@ -22,7 +22,7 @@ const Header = () => {
                 <div className="d-flex justify-content-between topbar">
                     <div className="top-info">
                         <small className="me-3 text-white-50"><a href="#"><i className="fas fa-map-marker-alt me-2 text-secondary"></i></a>Trinetra Enclave Greater Noida (U.P.)</small>
-                        <small className="me-3 text-white-50"><a href="#"><i className="fas fa-envelope me-2 text-secondary"></i></a>pixelprotechnologies2024@gmail.com </small>
+                        <small className="me-3 text-white-50"><a href="#"><i className="fas fa-envelope me-2 text-secondary"></i></a>info.thinkfordigital@gmail.com </small>
                     </div>
                    
                     <div className="top-link">
